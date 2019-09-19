@@ -26,7 +26,7 @@ export default class Ascendente extends Component {
     }
 
     subscribeToEvent = () => {
-        const io = socket('http://localhost:4000/');
+        const io = socket('https://signoseascedentes2019.herokuapp.com/');
         io.on('ascendente', data => {
             this.setState({ ascendentes: [data, ...this.state.ascendentes] })
         })

@@ -44,7 +44,7 @@ export default class Home extends Component {
     }
 
     subscribeToEvent = () => {
-        const io = socket('http://localhost:4000/');
+        const io = socket('https://signoseascedentes2019.herokuapp.com/');
         io.on('signo', data => {
             this.setState({ signos: [data, ...this.state.signos] })
         })
