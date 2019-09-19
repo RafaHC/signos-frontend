@@ -4,7 +4,7 @@
 
   App dos Signos, onde você consegue cadastrar,listar e excluir seus signos e ascendentes, com sistema de login e cadastro de usuário.
   
-  ###Backend da aplicação: https://github.com/RafaHC/signos_backend
+  Backend da aplicação: https://github.com/RafaHC/signos_backend
   
 ## Instalação
 
