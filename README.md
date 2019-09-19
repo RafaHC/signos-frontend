@@ -1,4 +1,4 @@
-# Frontend dos Signos
+# Frontend dos Signos e Ascendentes
 
 ## Descrição
 
